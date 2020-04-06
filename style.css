@@ -1,0 +1,136 @@
+.hide {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 10vh;
+    font-size: 30px;
+    font-family:'Do Hyeon', sans-serif;
+
+}
+#virus-img {
+    width: 100px;
+    height:100px;
+}
+#resources-Div {
+    justify-content: auto;
+    align-content: left;
+
+}
+.mainBtn:hover {
+    background-color: palevioletred;
+}
+
+a {
+    color: purple;
+}
+
+#resources-Div{
+    float:left;
+    margin-right: 20px;
+}
+#goFirstTest, #goSecondTest {
+    width: 200px;
+    height: 50px;
+}
+#virus-img {
+    width: 28px;
+    height: 28px;
+}
+
+button {
+    margin: 30px 0px 20px 0px;
+    width: 75px;
+    height: 30px;
+    background-color: pink;
+    border-radius: 8px;
+    padding: 0.5%;
+}
+
+#goFirstTest, #goSecondTest {
+    width: 60px;
+    height: 35px;;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 15px 3px 40px 3px;
+    margin: 0px 8px 0px 8px;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(175, 255, 149);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: lightpink;
+
+}
+#country{
+    width: 150px;
+    height: 20px;
+    border-radius: 8px;
+}
+#showStadisticsDiv {
+    margin-top: 70px;
+    font-size: 25px;
+}
+ #search-input {
+     width: 200px;
+     height: 30px;
+     border-radius: 15px;
+     text-align: left;
+     padding-left: 15px;
+     font-size: 20px;
+     border: 1px solid rgb(165, 165, 165);
+     background-color: white;
+ }
+
+ #search-btn, #go-btn, #restart-test, #search-restart, #submit-btn {
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    background-color: palevioletred;
+    color: white;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-top: 20px;
+ }
+
+ #searchBtn:hover, #go-btn:hover {
+    background-color: palevioletred;
+ }
+
+ .gap {
+     margin-top: 15px;
+ }
+
+#title1-1, #title2-2{
+    font-size: 20px;
+}
+i {
+    float: left                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ;
+}
+#symptomsdiv{
+    text-align: center;
+}
+
+ .question {
+     margin-bottom: 20px;
+     font-size: 20px;
+ }
+ #staff-support,#children-info,#school-closures,#learning{
+     float: center;
+ }
